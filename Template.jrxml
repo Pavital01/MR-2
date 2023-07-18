@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2023-07-18T11:05:02 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="NewTeams" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="bdaf56d3-24cb-40bd-bc22-68ceea079b09">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="4148a2db-1908-4f3d-919e-5a544902b45a">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<parameter name="surname" class="java.lang.String">
+		<defaultValueExpression><![CDATA["asdaASDSDASDASDASD"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="name" class="java.lang.String"/>
+	<parameter name="dateBirth" class="java.lang.String"/>
+	<parameter name="placeOfBirth" class="java.lang.String"/>
+	<parameter name="nationality" class="java.lang.String"/>
+	<parameter name="education" class="java.lang.String"/>
+	<parameter name="university" class="java.lang.String"/>
+	<parameter name="graduationDate" class="java.lang.String"/>
+	<parameter name="visitTypeEducation" class="java.lang.String"/>
+	<parameter name="speciality" class="java.lang.String"/>
+	<parameter name="qualification" class="java.lang.String"/>
+	<parameter name="diplomaNr" class="java.lang.String"/>
+	<parameter name="diplomaDate" class="java.lang.String"/>
+	<parameter name="DateOfCompletion" class="java.lang.String"/>
+	<parameter name="workExperience" class="java.lang.String"/>
+	<parameter name="workExperienceGeneral" class="java.lang.String"/>
+	<parameter name="workExperienceUninterrupted" class="java.lang.String"/>
+	<parameter name="lastWorkPlace" class="java.lang.String"/>
+	<parameter name="lastWorkPlaceProfession" class="java.lang.String"/>
+	<parameter name="dismissalDate" class="java.lang.String"/>
+	<parameter name="dismissalReasons" class="java.lang.String"/>
+	<parameter name="familyStatus" class="java.lang.String"/>
+	<parameter name="buletinSeria" class="java.lang.String"/>
+	<parameter name="buletinNr" class="java.lang.String"/>
+	<parameter name="buletinEmitent" class="java.lang.String"/>
+	<parameter name="buletinData" class="java.lang.String"/>
+	<parameter name="address" class="java.lang.String"/>
+	<parameter name="telefon" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="180" splitType="Stretch">
+			<staticText>
+				<reportElement x="330" y="0" width="225" height="30" uuid="1e55d6dc-baee-4332-a2e1-a472f4d90fd6"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Formular interdepartamental tipizat 	         nr.MR-2
+Типовая междуведомственная форма]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="30" width="185" height="41" uuid="0bb045eb-dd42-4edd-aae3-433fcecf0060"/>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Aprobat de DS al Republicii Moldova
+prin Hotărirea nr. 01 din 10.01.97
+Утверждена постановлением ДС
+Республики Молдова от 10.01.97 г. № 01]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="320" height="30" uuid="f3bb2984-5b5a-494a-b2dc-4968ec5cc0d3"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[unitate		предприятие]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="395" y="71" width="100" height="30" uuid="8fd892dd-c4aa-4a3c-85bd-7e228799124a"/>
+				<text><![CDATA[Cod CDUM
+Код по КУДМ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="495" y="77" width="60" height="18" uuid="98808189-8573-459e-9431-5ceb95ed7010"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[030133]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="330" y="103" width="229" height="77" uuid="5ca087b9-7a9e-41f6-8782-b0ed2ebc17e5">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset1" uuid="f2ef592d-5cf7-425b-8e2c-38884976d55d">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="70" uuid="11db88e3-755f-4b9a-8928-f1abf4386104">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table_CH" height="50" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="50" uuid="986890f2-9841-4902-9b14-f0d98713c675"/>
+								<box>
+									<pen lineWidth="0.0"/>
+									<topPen lineWidth="3.0"/>
+									<leftPen lineWidth="3.0"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="9"/>
+								</textElement>
+								<text><![CDATA[Nr.
+document
+Номер
+документа]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<box>
+								<leftPen lineWidth="3.0"/>
+								<bottomPen lineWidth="3.0"/>
+							</box>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="6548399c-48f8-4751-833b-add93ee261e1">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table_CH" height="50" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="50" uuid="6bc04025-0508-40cc-bbe1-936300899dbd"/>
+								<box>
+									<topPen lineWidth="3.0"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="9"/>
+								</textElement>
+								<text><![CDATA[Cod
+Sex M/F
+Код
+Пол М/Ж]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<box>
+								<bottomPen lineWidth="3.0"/>
+							</box>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="33e71f5a-1f12-4403-9ba5-38333c741041">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table_CH" height="50" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="50" uuid="179f5e94-80f2-46db-bd71-600e267c9890"/>
+								<box>
+									<topPen lineWidth="3.0"/>
+									<rightPen lineWidth="3.0"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="9"/>
+								</textElement>
+								<text><![CDATA[Nr. matricol
+Табельный
+номер]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<box>
+								<bottomPen lineWidth="3.0"/>
+								<rightPen lineWidth="3.0"/>
+							</box>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="52" y="140" width="168" height="31" uuid="e264d0de-e74f-463d-8727-9316913223c0"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FIȘA PERSONALĂ nr. ____
+ЛИЧНАЯ КАРТОЧКА]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="470" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="20" width="248" height="450" uuid="cf14de22-17e6-4bde-a6df-85d2482531b4"/>
+				<box>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+					<paragraph lineSpacingSize="0.0"/>
+				</textElement>
+				<text><![CDATA[1. Numele ___________________________
+    Фамилия
+    Prenume__________________________
+    Имя
+2. Data nașterii______________________
+    Дата рождения
+_____________________________________
+
+3. Locul nașterii___________________________
+    Место рождения
+____________________________________
+
+4. Naționalitatea_____________________________
+    Национальность
+5. Studii________________________________
+    Образование 
+
+a)  ________________________________________
+
+
+__________________________________________
+
+b)  ________________________________________
+
+_________________________________________
+
+
+с) forma de învățămînt ______________________
+    вид обучения
+
+6. Specialitatea obținută ______________________
+    Специальность
+_______________________________________
+
+
+________________________________________
+
+
+7. Calificarea obținută _________________
+    Квалификация
+    Diplomă/certificat nr. _______ din _______
+    Диплом (свидетельство)        от
+    Data completării ___________ 200_
+    Дата заполнения]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="0" width="100" height="18" uuid="798640e3-e0f2-417b-9925-ffdcb129e343"/>
+				<textElement>
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1. DATE GENERALE
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="10" width="100" height="20" uuid="3b306be9-f65a-47de-af45-9f637f4268f9"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[ОБЩИЕ СВЕДЕНИЯ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="90" width="258" height="20" uuid="8a852381-15f0-434e-9af2-2ac272ce9a95"/>
+				<box>
+					<topPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[ziua, luna, anul - число, месяц, год]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="20" width="21" height="450" uuid="5b2b34b1-bb86-4591-b042-483d1cb0b2a9"/>
+				<box>
+					<leftPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left"/>
+				<text><![CDATA[Cod pentru prelucrare automată	Код для автоматизированной обработки]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="111" y="170" width="168" height="20" uuid="b779761f-68e8-4092-bec6-64905981a9d8"/>
+				<textElement textAlignment="Center">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[superiore, medii, medii speciale, primare
+высшее, среднее, среднее специальное, общее]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="200" width="247" height="20" uuid="3c300714-15de-46b9-b697-b585cd477dc0"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[denumirea instituției de învățămînt superior
+название высшего учебного заведения]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="31" y="250" width="247" height="20" uuid="8cbff50b-fde7-48ec-8e71-9207b6842b8b"/>
+				<textElement textAlignment="Center">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[denumirea colegiu, data absolvirii
+название колледжа, дата окончания]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="29" y="230" width="249" height="10" uuid="5caca9e4-30a0-4e7b-b543-2b7a83762d1e"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[data absolverii - дата окончания]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="270" width="248" height="20" uuid="06d2397e-84f5-4629-86cf-55100e04dddb"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[denumirea școlii profesionale, data absolvirii
+название профтехучилища, дата окончания]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="116" y="300" width="162" height="10" uuid="70636584-a3a5-400a-9fc0-729052be0751"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[de zi, serala - дневное, вечернее]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="534" y="20" width="21" height="450" uuid="c7de40e5-0ef8-41e9-acf1-84fdbf2288c6"/>
+				<box>
+					<leftPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="Left"/>
+				<text><![CDATA[Cod pentru prelucrare automată	Код для автоматизированной обработки]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="130" y="330" width="149" height="20" uuid="eff7d73c-dc8d-4e7c-9d24-b73e30d3e92a"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[pentru absolvenți
+для выпускников]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="350" width="249" height="20" uuid="54471252-3c19-4e91-8fe5-8c9b354f568e"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[instituților de învațămînt superior
+высших учебных заведений]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="380" width="249" height="20" uuid="c288b7b3-8d99-48e2-a567-5d9d31057cac"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[sau a colegilor
+или колледжей]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="18" width="206" height="22" uuid="f50650e8-3ded-417f-872b-a19153a41ca1"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{surname}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="289" y="25" width="244" height="444" uuid="27c05953-a736-45a2-9c2a-13879119a1da"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[8. Vechimea în muncă ________________
+    Стаж работы
+    generală__________________________
+    общий
+    neîntreruptă_________________________
+    неприрывный
+9. Ultimul loc de muncă, funcția ___________
+    Последнее место работы,
+    профессия (должность)
+_______________________________________
+
+
+_______________________________________
+10.Starea civilă __________________________
+    Семейное 
+    положение
+______________________________________________________
+
+______________________________________________________
+______________________________________________________
+______________________________________________________
+11. ___________________________________________________
+12. ___________________________________________________
+13. ___________________________________________________
+14. ___________________________________________________
+15. Buletin de identitate
+      Удостоверение личности
+      seria__________nr.___________________________________
+      серия
+      Emitent ____________________________________________
+      Кем выдан
+      Data elibirării ________________________________________
+      Дата выдачи
+16. Domiciliul ___________________________________________
+      Домашний адрес
+______________________________________________________
+
+      Tel.________________________________________________
+      Тел.
+      ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="289" y="120" width="244" height="20" uuid="f30c26cd-925f-4a21-9b51-e4626d3fd261"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[data și motivul concedierii
+дата и причниа увольнения]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="190" width="243" height="20" uuid="e12876be-7e78-4990-94ba-a152d354744f"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[anul nașterii fiecărui membru al familiei
+год рождения каждого члена семьи]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="289" y="430" width="245" height="30" uuid="5c94ff68-ff15-435d-8627-554b0f2b3689"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[      Semnătura___________________________
+      Подпись]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="40" width="206" height="20" uuid="2062efe9-4697-4f39-866f-b06045961413"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="86" y="60" width="190" height="20" uuid="34350d14-c0af-425e-b08d-3560627f884d"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{dateBirth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="100" width="176" height="20" uuid="23baa4cd-20ca-405f-ad1b-4429c0db2db5"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{placeOfBirth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="140" width="176" height="20" uuid="aff0fcdc-33b4-4328-899e-910e9a6d30be"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nationality}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="65" y="160" width="214" height="20" uuid="762101b0-a0b3-408e-b1b0-470c836aa635"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{education}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="190" width="236" height="20" uuid="8b729663-4f9f-476b-8581-d08693b7c52a"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{university}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="220" width="247" height="20" uuid="305ed5c4-bc26-4b3e-bc92-7df58f44a25f"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{graduationDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="116" y="290" width="162" height="20" uuid="3f8f35c6-8369-45e7-8d19-d62ee70036e6"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{visitTypeEducation}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="120" y="320" width="157" height="20" uuid="edded38e-50dc-495b-8084-b39416f64335"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{speciality}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="400" width="169" height="20" uuid="b7701d26-1442-4034-b3e4-dbb72e9e0ff8"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{qualification}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="111" y="420" width="39" height="20" uuid="afb40c77-cba4-4762-aab8-a8be4a33e274"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{diplomaNr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="421" width="116" height="20" uuid="75102ed8-0518-4c71-9afc-a4eee4512a5f"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{diplomaDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="440" width="50" height="20" uuid="f6276e89-dda4-46eb-ae9f-932826f03994"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{DateOfCompletion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="25" width="163" height="20" uuid="d37dc166-ca0e-4bc0-81e3-327ce0a11174"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{workExperience}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="45" width="203" height="20" uuid="1de0c794-71e7-47fd-b742-23ef3138ac26"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{workExperienceGeneral}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="65" width="188" height="20" uuid="57b8a621-d73d-49b5-a9af-647eb6159056"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{workExperienceUninterrupted}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="399" y="85" width="139" height="20" uuid="e8657819-1c1f-46b4-9a42-c7cbb09604db"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lastWorkPlace}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="289" y="105" width="244" height="20" uuid="a1c62630-9f0a-41ad-8e65-ad67ced067d8"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{lastWorkPlaceProfession}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="290" y="140" width="70" height="20" uuid="cea36bdb-8520-4edd-9c31-4376a4d9824c"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{dismissalDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="140" width="173" height="20" uuid="74fdbc35-9edd-4d20-b626-504435c848e1"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{dismissalReasons}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="340" y="160" width="194" height="20" uuid="e55c4b13-8e6c-41a2-8026-e57255188edb"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[se indică competența familiei,
+указывается состав семьи]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="350" y="150" width="173" height="20" uuid="a7664faa-6b21-420f-b41c-9c04a531fb9a"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{familyStatus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="290" width="50" height="20" uuid="87063c58-cf88-4d56-a5b3-8ac0eaa1e508"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{buletinSeria}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="295" width="153" height="20" uuid="2034e7a8-967c-4e29-9afd-007a5cd37ab4"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{buletinNr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="315" width="203" height="20" uuid="5bbf397b-1714-4014-83fb-8de5241afea8"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{buletinEmitent}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="335" width="183" height="20" uuid="7d30dfd5-1d83-4eb3-abc2-a12f0104293d"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{buletinData}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="355" width="183" height="20" uuid="fc9aca53-8440-460d-bf66-a19f470c1764"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="390" width="183" height="20" uuid="ff0e7764-8e8f-4248-8c6d-ef4b75cb9b97"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{telefon}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="78" splitType="Stretch"/>
+	</columnFooter>
+</jasperReport>
